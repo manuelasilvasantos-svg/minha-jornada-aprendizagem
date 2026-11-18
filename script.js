@@ -53,7 +53,7 @@ async function result(){changeProgress(null);let ratings=means(),avg=ratings.red
 
 // === EAQ: Integração com Google Apps Script. ===
 // O envio não é declarado concluído até o servidor confirmar o recebimento.
-const EAQ_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxg7J2UkBwUBMkq1TI7S8Sz-_ij3qs4BR0PcRbrCz_QEB9MUoJYR6-5mJmHqCpY4Zf1/exec';
+const EAQ_WEBAPP_URL = 'https://script.google.com/a/macros/eaportal.org/s/AKfycby4q4OIkjCG1P7dSMgSNMZ2b_Q_hYUYah3lubdS2fwYTKLKWNfGYQVlQ_nIIcaC3onQ/exec';
 let eaqID = '';
 let eaqSending = false;
 let eaqRecorded = false;
